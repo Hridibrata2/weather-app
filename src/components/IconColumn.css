@@ -1,0 +1,81 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 10px;
+    width: max-content;
+    background-color: rgb(58, 58, 103);
+    height: 95vh;
+}
+
+.wind-icon {
+    background-color: rgb(110, 158, 209);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+    margin-bottom: 50px;
+}
+
+img {
+    width: 20px; 
+    height: auto;
+}
+
+ 
+
+.weather-text {
+    color: white;
+    margin: 0;
+    font-size: small;
+    justify-content: center;
+}
+
+.sunny-cloud-icon{
+    margin-bottom: 2px;
+}
+
+.city-icon{
+    margin-top: 30px;
+    margin-bottom: 2px;
+}
+
+.city-text {
+    color: white;
+    margin: 0;
+    font-size: small;
+}
+
+.map-icon {
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2px;
+}
+
+.map-text {
+    color: white;
+    margin: 0;
+    font-size: small;
+}
+
+.other-icons {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.settings-icon {
+    margin-top: 30px;
+    margin-bottom: 2px;
+    rotate: 90deg;
+}
+
+.settings-text {
+    color: white;
+    margin: 0;
+    font-size: small;
+    stroke-width: '3';
+}
