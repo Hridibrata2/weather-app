@@ -1,0 +1,30 @@
+.todays-forecast{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color:rgb(32, 43, 61); 
+    border-radius: 10px;
+    height: 170px;
+    position: absolute;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translate(11%);
+    top: 46%;
+    width: 59%;
+}
+
+.forecast-header{
+    position: absolute;
+    top: 5%;
+    left: 4%;
+    color: whitesmoke;
+    font-size: small;
+}
+
+.forecast-icons{
+    position: absolute;
+    top: 15%;
+    left: 4%;
+    column-count: 6;
+    background-color: turquoise;
+    column-rule-style: solid;
+}
