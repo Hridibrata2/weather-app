@@ -7,7 +7,7 @@
 
 .city-name {
    position: absolute;
-   top: 10%;
+   top: 8%;
    left: 10.5%;
    transform: translateX(-50%);
    font-size: 2rem;
@@ -18,7 +18,7 @@
 
 .temperature-text {
    position: absolute;
-   top: 15%;
+   top: 13%;
    left: 7.5%;
    transform: translateY(45%);
    font-size: 5rem;
@@ -29,7 +29,7 @@
 
 .rain-chance {
    position: absolute;
-   top: 17%;
+   top: 15%;
     left: 7%;
    justify-content: center;
    align-items: center;
