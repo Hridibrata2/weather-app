@@ -1,13 +1,122 @@
 .air-condition {
-    position: absolute;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  position: absolute;
   width: 59%;
   height: 29%;
   background-color: #202c3c;
   top: 69%;
   left: 7%;
   border-radius: 10px;
+}
+
+.condition-header {
+  position: absolute;
+  top: 5%;
+  left: 6%;
+  color: whitesmoke;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.condition-button{
+ position: absolute;
+ top: 8%;
+ right: 6%;
+ width: 80px;
+ height: 25px;
+ color: whitesmoke;
+background: linear-gradient(to bottom, #4facfe, #0061ff);  
+border-radius: 15px;
+border: none;
+}
+
+.condition-temp-icon{
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  color: whitesmoke;
+}
+
+.condition-temp-text{
+  position: absolute;
+  top: 18%;
+  left: 9%;
+  color: whitesmoke;
+  font-size: 17px;
+}
+
+.condition-temp-value{
+  position: absolute;
+  top: 25%;
+  left: 9%;
+  color: whitesmoke;
+  font-size: 30px;
+}
+
+.condition-wind-icon{
+  position: absolute;
+  top: 25%;
+  right: 40%;
+  color: whitesmoke;
+}
+
+.condition-wind-text{
+  position: absolute;
+  top: 19%;
+  right: 34%;
+  color: whitesmoke;
+  font-size: 18px;
+}
+
+.condition-wind-value{
+  position: absolute;
+  top: 25%;
+  right: 28%;
+  color: whitesmoke;
+  font-size: 30px;
+}
+
+.condition-water-icon{
+  position: absolute;
+  top: 60%;
+  left: 5%;
+  color: whitesmoke;
+}
+
+.condition-rain-text{
+  position: absolute;
+  top: 54%;
+  left: 9%;
+  color: whitesmoke;
+  font-size: 18px;
+}
+
+.condition-rain-value{
+  position: absolute;
+  top: 60%;
+  left: 9%;
+  color: whitesmoke;
+  font-size: 30px;
+}
+
+.condition-sun-icon{
+  position: absolute;
+  top: 60%;
+  right: 40%;
+  color: whitesmoke;
+}
+
+.condition-sun-text{
+  position: absolute;
+  top: 54%;
+  right: 30%;
+  color: whitesmoke;
+  font-size: 18px;
+}
+
+.condition-sun-value{
+  position: absolute;
+  top: 60%;
+  right: 36.5%;
+  color: whitesmoke;
+  font-size: 30px;
 }

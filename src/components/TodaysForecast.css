@@ -58,15 +58,15 @@
 
 
 .forecast-time      { left: 6%; }
-.forecast-temp      { top: 65%; left: 7%; }
-.clear-weather-icon { top: 40%; left: 5.8%; }
+.forecast-temp      { top: 70%; left: 7%; }
+.clear-weather-icon { top: 41%; left: 5.8%; }
 
 .forecast-time-2      { left: 20%; }
 .forecast-temp-2      { top: 70%; left: 21.4%; }
-.sunny-weather-icon   { top: 40%; left: 20%; }
+.sunny-weather-icon   { top: 41%; left: 20%; }
 
 .forecast-time-3      { left: 35%; }
-.forecast-temp-3      { top: 65%; left: 36.8%; }
+.forecast-temp-3      { top: 70%; left: 36.8%; }
 .cloudy-weather-icon  { top: 40%; left: 36%; }
 
 .forecast-time-4        { left: 54.5%; }
@@ -74,8 +74,8 @@
 .cloud-weather-icon-2   { top: 41%; left: 54%; }
 
 .forecast-time-5     { left: 71.5%; }
-.forecast-temp-5     { top: 69%; left: 73%; }
-.rain-weather-icon   { top: 40%; left: 71.5%; }
+.forecast-temp-5     { top: 70%; left: 73%; }
+.rain-weather-icon   { top: 41%; left: 71.5%; }
 
 .forecast-time-6       { left: 88%; }
 .forecast-temp-6       { top: 69%; left: 89%; }
