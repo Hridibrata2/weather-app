@@ -26,3 +26,11 @@ input {
 input:focus {
   outline: none;
 }
+
+@media screen and (max-width: 1024px) {
+  .input-container {
+    width: 62%;
+    transform: translate(11.5%);
+  }
+  
+}

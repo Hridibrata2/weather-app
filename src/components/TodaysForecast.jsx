@@ -33,7 +33,6 @@ const TodaysForecast = () => {
             <p className='forecast-time-6'>9:00 PM</p>
             <img className='thunder-weather-icon' src={thunder_Icon} alt="thunder" />
             <p className='forecast-temp-6'>16°C</p>
-
           </div>
 
   )

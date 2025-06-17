@@ -100,3 +100,41 @@
 .line-3    { left: 48%; }
 .line-4    { left: 65%; }
 .line-5    { left: 82%; }
+
+@media screen and (max-width: 1024px) {
+  .todays-forecast {
+    left: 3%;
+    top: 22.5%;
+    background-color: seashell
+  }
+
+  .forecast-header{
+    color: rgb(43, 40, 40);
+  }
+  
+  .forecast-time,
+  .forecast-time-2, 
+  .forecast-time-3,
+  .forecast-time-4,
+  .forecast-time-5,
+  .forecast-time-6{
+    color: rgb(43, 40, 40);
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .forecast-temp,
+  .forecast-temp-2,
+  .forecast-temp-3,
+  .forecast-temp-4,
+  .forecast-temp-5,
+  .forecast-temp-6 {
+    color: rgb(43, 40, 40);
+  }
+
+  .line { left: 17%;}
+  .line-2 { left: 32%; }
+  .line-3 { left: 50%; }
+  .line-4 { left: 67%; }
+  .line-5 { left: 84%; }
+}
+ 

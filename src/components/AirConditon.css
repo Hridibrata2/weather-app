@@ -82,7 +82,7 @@ border: none;
   color: whitesmoke;
 }
 
-.condition-rain-text{
+.condition-humidity-text{
   position: absolute;
   top: 54%;
   left: 9%;
@@ -90,7 +90,7 @@ border: none;
   font-size: 18px;
 }
 
-.condition-rain-value{
+.condition-humidity-value{
   position: absolute;
   top: 60%;
   left: 9%;
@@ -119,4 +119,71 @@ border: none;
   right: 36.5%;
   color: whitesmoke;
   font-size: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .air-condition {
+    width: 59%;
+    height: 13%;
+    top: 36%;
+    left: 9.5%;
+    background-color: #202c3c;
+  }
+
+  .condition-header {
+    top: 3%;
+    left: 4%;
+    font-size: 10px;
+  }
+
+  .condition-button {
+    top: 5%;
+    right: 4%;
+    width: 70px;
+    height: 20px;
+    font-size: small;
+  }
+
+  .condition-temp-icon,
+  .condition-wind-icon,
+  .condition-humidity-icon,
+  .condition-sun-icon {
+    width: 30px;
+    height: auto;
+  }
+
+  .condition-temp-text,
+  .condition-wind-text{
+    right: 32%;
+  }
+  .condition-humidity-text,
+  .condition-sun-text {
+    font-size: medium;
+    right: 28%;
+  }
+
+  .condition-temp-value{
+    font-size: medium;
+    margin-top: 25px;
+    left: 10%;
+  }
+
+  .condition-wind-value{
+    font-size: medium;
+    margin-top: 27px;
+    right: 30%;
+  }
+  .condition-humidity-value{
+    font-size: medium;
+    margin-top: 25px;
+    left: 10%;
+  }
+  .condition-sun-value{
+    font-size: medium;
+    margin-top: 25px;
+  }
+
+  .condition-button{
+    margin-top: 5px;
+  }
 }

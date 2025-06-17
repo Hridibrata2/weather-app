@@ -5,8 +5,7 @@ const PresentWeather = () => {
   return (
     <div className='weather-icons-container'>
         <div className='weather-icon-sunny'>
-
-            <img className='weather-icon' src={clear_Icon} alt="Sunny" />
+<img className='weather-icon' src={clear_Icon} alt="Sunny" />
         </div>
         <div>
             <p className='city-name'>Madrid</p>

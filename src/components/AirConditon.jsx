@@ -20,8 +20,8 @@ const AirConditon = () => {
           <p className='condition-wind-text'>Wind</p>
           <p className='condition-wind-value'>10km/h</p>
           <IoWaterSharp className='condition-water-icon' size={30} />
-          <p className='condition-rain-text'>Chance of rain</p>
-          <p className='condition-rain-value'>60%</p>
+          <p className='condition-humidity-text'>Humidity</p>
+          <p className='condition-humidity-value'>60%</p>
           <FaSun className='condition-sun-icon' size={30} />
           <p className='condition-sun-text'>UV Index</p>
           <p className='condition-sun-value'>3</p>
