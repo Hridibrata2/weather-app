@@ -1,27 +1,33 @@
-import React, { useState } from 'react'
-import './SearchButton.css'; 
+import React, { useState, useContext } from 'react';
+import './SearchButton.css';
+import { WeatherContext } from './WeatherContext';
 
-const SearchButton = ({onSearch}) => {
+const SearchButton = () => {
+  const [city, setCity] = useState('');
+  const { onSearch } = useContext(WeatherContext);
 
-const [city, setCity] = useState('');
-
-const handleKeyPress = (e) => {
-  if (e.key === 'Enter' && city.trim() !== '') {
-    onSearch(city.trim());
-  }
-};
+  const handleKeyPress = (e) => {
+    if (e.key === 'Enter') {
+      if (city.trim() === '') {
+        alert("Please enter a city name");
+      } else {
+        onSearch(city.trim());
+      }
+    }
+  };
 
   return (
     <div className='input-container'>
-        <input 
-          type="text" 
-          placeholder="Search for cities" 
-          value={city}
-          onChange={(e) => setCity(e.target.value)}
-          aria-label="Search for a city" 
-          />
+      <input
+        type="text"
+        placeholder="Search for cities"
+        value={city}
+        onChange={(e) => setCity(e.target.value)}
+        aria-label="Search for a city"
+        onKeyDown={handleKeyPress}
+      />
     </div>
-  )
-}
+  );
+};
 
-export default SearchButton
+export default SearchButton;

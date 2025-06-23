@@ -4,7 +4,6 @@ import { TiWeatherPartlySunny } from "react-icons/ti";
 import { FaCity } from "react-icons/fa";
 import { IoMapSharp } from "react-icons/io5";
 import { GiSettingsKnobs } from "react-icons/gi";
-
 import wind_Icon from '../assets/wind.png';
 
 

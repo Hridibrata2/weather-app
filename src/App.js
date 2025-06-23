@@ -9,8 +9,8 @@ import AirConditon from './components/AirConditon';
 function App() {
   return (
     <div className="app-container">
-  <SearchButton />
-  <PresentWeather />
+<SearchButton />
+<PresentWeather />
 <TodaysForecast />
 <AirConditon />
 <WeekForecast />

@@ -4,6 +4,8 @@ import clear_Icon from '../assets/clear.png';
 import cloud_Icon from '../assets/cloud.png';
 import rain_Icon from '../assets/rain.png';
 import thunder_Icon from '../assets/thunderstorm.png'; 
+import drizzle_Icon from '../assets/drizzle.png';
+
 
 
 const TodaysForecast = () => {
