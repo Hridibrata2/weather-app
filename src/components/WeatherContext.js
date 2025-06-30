@@ -8,7 +8,7 @@ export const WeatherProvider = ({ children }) => {
 
     const onSearch = async (cityName) => {
         try {
-            const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${process.env.REACT_APP_WEATHER_API_KEY}`);
+            const response = await axios.get(`http://api.weatherapi.com/v1/forecast.json?key=${process.env.REACT_APP_WEATHER_API_KEY}&q=${cityName}&days=7&aqi=yes`);
             setWeatherData(response.data);
         } catch (error) {
             console.error('Error fetching weather data:', error);

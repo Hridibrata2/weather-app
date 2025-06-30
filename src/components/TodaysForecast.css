@@ -13,6 +13,14 @@
   overflow: hidden;
 }
 
+
+.unavailable-weather-data {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(10%, -50%);
+}
+
 .forecast-header {
   position: absolute;
   top: 5%;
