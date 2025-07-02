@@ -16,7 +16,7 @@ const IconColumn = () => {
         <div className='other-icons'>
             <TiWeatherPartlySunny className='sunny-cloud-icon' size={20} color='white' />
             <p className='weather-text'>Weather</p>
-            <FaCity className='city-icon' size={20} color='white'/>
+            <FaCity className='city-icon' size={20} color='white' onClick={() => console.log('clicked')}/>
             <p className='city-text'>Cities</p>
             <IoMapSharp className='map-icon' size={20} color='white'/>
             <p className='map-text'>Map</p>
