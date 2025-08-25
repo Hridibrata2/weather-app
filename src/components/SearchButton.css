@@ -1,11 +1,11 @@
 .input-container {
 display: flex;
-width: 59.5%;
+width: 60.2%;
 background-color:  rgb(15, 15, 114);
 border-radius: 10px;
 height: 3rem;
 position: absolute;
-transform: translate(10%);
+transform: translate(8.7%);
 }
 
 input {

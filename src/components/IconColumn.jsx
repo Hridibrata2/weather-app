@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './IconColumn.css'; 
 import { TiWeatherPartlySunny } from "react-icons/ti";
 import { FaCity } from "react-icons/fa";
@@ -8,6 +9,11 @@ import wind_Icon from '../assets/wind.png';
 
 
 const IconColumn = () => {
+  const navigate = useNavigate();
+const handleCityClick = () => {
+  navigate('/cities');
+};
+
   return (
     <div className='container'>
         <div className='wind-icon'>
@@ -16,7 +22,7 @@ const IconColumn = () => {
         <div className='other-icons'>
             <TiWeatherPartlySunny className='sunny-cloud-icon' size={20} color='white' />
             <p className='weather-text'>Weather</p>
-            <FaCity className='city-icon' size={20} color='white' onClick={() => console.log('clicked')}/>
+            <FaCity className='city-icon' size={20} color='white' onClick={handleCityClick} />
             <p className='city-text'>Cities</p>
             <IoMapSharp className='map-icon' size={20} color='white'/>
             <p className='map-text'>Map</p>

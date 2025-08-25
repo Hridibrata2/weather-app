@@ -1,7 +1,6 @@
 import React, { useContext } from 'react';
 import './TodaysForecast.css';
 import { WeatherContext } from './WeatherContext';
-
 import clear_Icon from '../assets/clear.png';
 import cloud_Icon from '../assets/cloud.png';
 import rain_Icon from '../assets/rain.png';
@@ -24,7 +23,7 @@ const TodaysForecast = () => {
 
   const forecast = targetTimes.map((time) =>
     hours.find((h) => h.time.includes(time))
-  );
+  ); 
 
   const getIcon = (condition) => {
     const text = condition.toLowerCase();
